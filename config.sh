@@ -1,6 +1,10 @@
 #!/bin/bash
 
 
+# PROMPT_COMMAND='NEW_PWD=$(perl -pe "s|(/.)[^/]+(?=/)|\\1|g" <<< "${PWD/#$HOME/\~}")'
+# PS1='\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]${NEW_PWD}\[\e[0m\]\$ '
+
+# Install vim 
 sudo apt install curl vim -y
 
 # 复制脚本文件
