@@ -1,7 +1,7 @@
 #!/bin/bash
 # 用法: source proxy.sh [on|off|test]
 
-PROXY_URL="socks5h://192.168.17.1:7897"
+PROXY_URL="http://192.168.17.1:7897"
 
 set_proxy() {
     # 环境变量
