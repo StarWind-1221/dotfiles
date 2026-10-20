@@ -26,7 +26,7 @@ set autoindent
 set wildmenu            " visual autocomplete for command menu
 set showmatch           " highlight matching [{()}]
 set laststatus=2        " Show the status line at the bottom
-set mouse+=a            " A necessary evil, mouse support
+set mouse=a             " A necessary evil, mouse support
 set noerrorbells visualbell t_vb=    " Disable annoying error noises
 set splitbelow          " Open new vertical split bottom
 set splitright          " Open new horizontal splits right
@@ -95,5 +95,7 @@ Plug 'preservim/nerdtree'
     nnoremap <Leader>f :NERDTreeFind<CR>
 
 Plug 'vim-airline/vim-airline'
+Plug 'godlygeek/tabular'
+Plug 'preservim/vim-markdown'
 
 call plug#end()
